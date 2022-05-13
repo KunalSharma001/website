@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+}
+/* body with image  */
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("769133.webp");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* logo adjust  */
+#logo{
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+/* align of unorderlist to right side  */
+nav ul{
+    float: right;
+}
+/* align the list item in a horizontal line  */
+nav ul li{
+    margin-top: 17%;
+    margin-right: 250px; /*   reandom change for exp. */
+    display: inline-block;
+    font-size: 25px;
+    padding: 1px;
+}
+/* conversion of link text into beautiful buttons  */
+nav ul li a{
+    padding: 10px;
+    color: red;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: none;
+}
+/* hover on button  */
+nav ul li a:hover {
+    background-color: blanchedalmond;
+    color: black;
+    transition: 1.3s ease;
+}
+/* logo head  */
+#logohead{
+    margin-left: 13%;
+    margin-top: -7%;
+    color: blanchedalmond;
+    font-size: 40px;
+}
+/* setting slide size  */
+#firstslide {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+#secondslide{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+} 
+#thirdslide{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+
+}
+
+
+
+
+
+
+
+
+/*.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    /* background-color: #f9f9f9; */
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    /* padding: 12px 16px; */
+
+    /*padding-top: 15px;*/
+    /* z-index: 1; */
+  /*}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }*/
+
+
+
+#dropdownMenuButton1{
+    /* padding: 10px; */
+    margin-top: -20%;
+    margin-left: 40%;
+    color: red;
+    text-transform: uppercase;
+    border: 8px solid black;
+    border-radius: 10px;
+    background-color: black;
+    text-decoration: none;   
+}
+/* dropdown css for size  */
+.dropdown-menu
+{
+    /* border: 10px solid red; */
+    
+}
+/* font of dropdown item  */
+#dropdown-item{
+    
+}
+/* dropdown item css for padding */
+.dropdown ul li{
+    width: 1px;
+    height: 15%;
+}
+
+
+
+
+
+
+.divblock{
+    margin-left: 14%;
+    border-radius: 150px;
+    width: 70%;
+    background-color: thistle;
+    border: 5px solid white;
+}
